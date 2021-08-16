@@ -1,0 +1,12 @@
+Started on Jul 29, 2021, 7:48:29 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 63d0c70ea021494c6eb7914e491c42fff17e2bd7 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.32.0.windows.2'
+ > git.exe ls-remote -h -- https://github.com/jglick/simple-maven-project-with-tests.git # timeout=10
+Found 3 remote heads on https://github.com/jglick/simple-maven-project-with-tests.git
+[poll] Latest remote head revision on refs/heads/master is: 63d0c70ea021494c6eb7914e491c42fff17e2bd7 - already built by 17
+Done. Took 0.43 sec
+No changes

@@ -1,0 +1,195 @@
+Started by user [8mha:////4GAvzdfxRLealRiprxsQE7C3HuaJsCYblez1w8i0703yAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace C:\Users\aryan\.jenkins\workspace\Backend
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ArySteb/summitworksproj1_backend.git/
+ > git.exe init C:\Users\aryan\.jenkins\workspace\Backend # timeout=10
+Fetching upstream changes from https://github.com/ArySteb/summitworksproj1_backend.git/
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.32.0.windows.2'
+ > git.exe fetch --tags --force --progress -- https://github.com/ArySteb/summitworksproj1_backend.git/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/ArySteb/summitworksproj1_backend.git/ # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision c3bb5451875bc7d75d1d253ec667bf3fccbc35b9 (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f c3bb5451875bc7d75d1d253ec667bf3fccbc35b9 # timeout=10
+Commit message: "Fixed merge conflicts and naming inconsistencies"
+ > git.exe rev-list --no-walk db0a27507ba265ea1c0e47ad2f8156477992310d # timeout=10
+[Backend] $ cmd.exe /C "mvn clean compile package && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.aryansteven:summitworksproj >-------------------
+[INFO] Building summitworksproj 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4HCc7zTC5JPov6ChUsJFdX+/fWF5NRCF9EMT+Ki9HzqXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ summitworksproj ---
+[INFO] 
+[8mha:////4HCc7zTC5JPov6ChUsJFdX+/fWF5NRCF9EMT+Ki9HzqXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ summitworksproj ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[8mha:////4HCc7zTC5JPov6ChUsJFdX+/fWF5NRCF9EMT+Ki9HzqXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ summitworksproj ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 18 source files to C:\Users\aryan\.jenkins\workspace\Backend\target\classes
+[INFO] 
+[8mha:////4HCc7zTC5JPov6ChUsJFdX+/fWF5NRCF9EMT+Ki9HzqXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ summitworksproj ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[8mha:////4HCc7zTC5JPov6ChUsJFdX+/fWF5NRCF9EMT+Ki9HzqXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ summitworksproj ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 18 source files to C:\Users\aryan\.jenkins\workspace\Backend\target\classes
+[INFO] 
+[8mha:////4HCc7zTC5JPov6ChUsJFdX+/fWF5NRCF9EMT+Ki9HzqXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ summitworksproj ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory C:\Users\aryan\.jenkins\workspace\Backend\src\test\resources
+[INFO] 
+[8mha:////4HCc7zTC5JPov6ChUsJFdX+/fWF5NRCF9EMT+Ki9HzqXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ summitworksproj ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\aryan\.jenkins\workspace\Backend\target\test-classes
+[INFO] 
+[8mha:////4HCc7zTC5JPov6ChUsJFdX+/fWF5NRCF9EMT+Ki9HzqXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ summitworksproj ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.aryansteven.summitworksproj.SummitworksprojApplicationTests
+12:26:44.662 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+12:26:44.672 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+12:26:44.703 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.aryansteven.summitworksproj.SummitworksprojApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+12:26:44.714 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.aryansteven.summitworksproj.SummitworksprojApplicationTests], using SpringBootContextLoader
+12:26:44.717 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.aryansteven.summitworksproj.SummitworksprojApplicationTests]: class path resource [com/aryansteven/summitworksproj/SummitworksprojApplicationTests-context.xml] does not exist
+12:26:44.718 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.aryansteven.summitworksproj.SummitworksprojApplicationTests]: class path resource [com/aryansteven/summitworksproj/SummitworksprojApplicationTestsContext.groovy] does not exist
+12:26:44.718 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.aryansteven.summitworksproj.SummitworksprojApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:26:44.718 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.aryansteven.summitworksproj.SummitworksprojApplicationTests]: SummitworksprojApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:26:44.756 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.aryansteven.summitworksproj.SummitworksprojApplicationTests]
+12:26:44.815 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\aryan\.jenkins\workspace\Backend\target\classes\com\aryansteven\summitworksproj\SummitworksprojApplication.class]
+12:26:44.817 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.aryansteven.summitworksproj.SummitworksprojApplication for test class com.aryansteven.summitworksproj.SummitworksprojApplicationTests
+12:26:44.920 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.aryansteven.summitworksproj.SummitworksprojApplicationTests]: using defaults.
+12:26:44.921 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+12:26:44.943 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5a85c92, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@32811494, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4795ded0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@53dacd14, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@14d14731, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2eced48b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@47c4ecdc, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@42f33b5d, org.springframework.test.context.event.EventPublishingTestExecutionListener@5c8504fd, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@4b7e96a, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@6475472c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3f07b12c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4bd1f8dd, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7096b474, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3e14c16d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3c989952, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@784b990c]
+12:26:44.947 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@2a7686a7 testClass = SummitworksprojApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@758a34ce testClass = SummitworksprojApplicationTests, locations = '{}', classes = '{class com.aryansteven.summitworksproj.SummitworksprojApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1890516e, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2bec854f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@23202fce, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4f4c4b1a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@14a50707, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@6eda5c9], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+12:26:44.985 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-07-29 12:26:45.279  INFO 19116 --- [           main] c.a.s.SummitworksprojApplicationTests    : Starting SummitworksprojApplicationTests using Java 11.0.11 on Scribe-Omen with PID 19116 (started by aryan in C:\Users\aryan\.jenkins\workspace\Backend)
+2021-07-29 12:26:45.282  INFO 19116 --- [           main] c.a.s.SummitworksprojApplicationTests    : No active profile set, falling back to default profiles: default
+2021-07-29 12:26:46.330  INFO 19116 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-29 12:26:46.389  INFO 19116 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 3 JPA repository interfaces.
+2021-07-29 12:26:47.106  INFO 19116 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-29 12:26:47.171  INFO 19116 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-29 12:26:47.308  INFO 19116 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-29 12:26:47.543  INFO 19116 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-29 12:26:47.882  INFO 19116 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-29 12:26:47.918  INFO 19116 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Hibernate: alter table ticket drop foreign key FKfytuhjopeamxbt1cpudy92x5n
+Hibernate: alter table ticket drop foreign key FKdvt57mcco3ogsosi97odw563o
+Hibernate: drop table if exists event
+Hibernate: drop table if exists ticket
+Hibernate: drop table if exists user
+Hibernate: create table event (id integer not null auto_increment, adult_price integer, allow_reg bit, category varchar(10), child_price integer, event_description varchar(300), end_date date, end_time time, img_url varchar(255), event_name varchar(50), start_date date, start_time time, primary key (id)) engine=InnoDB
+Hibernate: create table ticket (id integer not null auto_increment, address varchar(255), adult_qty integer, child_qty integer, contact_number integer, email varchar(255), first_name varchar(255), event_id integer not null, user_id integer not null, primary key (id)) engine=InnoDB
+Hibernate: create table user (id integer not null auto_increment, email varchar(255), first_name varchar(255), last_name varchar(255), password varchar(255), role varchar(255), primary key (id)) engine=InnoDB
+Hibernate: alter table user add constraint UK_ob8kqyqqgmefl0aco34akdtpe unique (email)
+Hibernate: alter table ticket add constraint FKfytuhjopeamxbt1cpudy92x5n foreign key (event_id) references event (id)
+Hibernate: alter table ticket add constraint FKdvt57mcco3ogsosi97odw563o foreign key (user_id) references user (id)
+2021-07-29 12:26:48.892  INFO 19116 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-29 12:26:48.900  INFO 19116 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-29 12:26:49.645  WARN 19116 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-29 12:26:50.658  INFO 19116 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 08decff5-ec21-43ff-83a2-891e6403c8ff
+
+2021-07-29 12:26:50.894  INFO 19116 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11b234aa, org.springframework.security.web.context.SecurityContextPersistenceFilter@57e35236, org.springframework.security.web.header.HeaderWriterFilter@6b3a1151, org.springframework.security.web.csrf.CsrfFilter@14f08a97, org.springframework.security.web.authentication.logout.LogoutFilter@5e609b42, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@264340f0, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2aadeb31, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1455a374, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5122387, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a9004e1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1226ba98, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@cfb462, org.springframework.security.web.session.SessionManagementFilter@b91e024, org.springframework.security.web.access.ExceptionTranslationFilter@730611a0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21553c3a]
+2021-07-29 12:26:51.444  INFO 19116 --- [           main] c.a.s.SummitworksprojApplicationTests    : Started SummitworksprojApplicationTests in 6.45 seconds (JVM running for 7.363)
+Hibernate: insert into event (adult_price, allow_reg, category, child_price, event_description, end_date, end_time, img_url, event_name, start_date, start_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into user (email, first_name, last_name, password, role) values (?, ?, ?, ?, ?)
+Hibernate: insert into ticket (address, adult_qty, child_qty, contact_number, email, event_id, first_name, user_id) values (?, ?, ?, ?, ?, ?, ?, ?)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.117 s - in com.aryansteven.summitworksproj.SummitworksprojApplicationTests
+2021-07-29 12:26:51.775  INFO 19116 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-29 12:26:51.778  INFO 19116 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-29 12:26:51.792  INFO 19116 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[8mha:////4HCc7zTC5JPov6ChUsJFdX+/fWF5NRCF9EMT+Ki9HzqXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-war-plugin:3.3.1:war (default-war) @ summitworksproj ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.pom
+Progress (1): 2.7/4.4 kBProgress (1): 4.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.pom (4.4 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.1/plexus-6.1.pom
+Progress (1): 2.7/24 kBProgress (1): 5.5/24 kBProgress (1): 8.2/24 kBProgress (1): 11/24 kB Progress (1): 14/24 kBProgress (1): 16/24 kBProgress (1): 19/24 kBProgress (1): 22/24 kBProgress (1): 24 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/6.1/plexus-6.1.pom (24 kB at 643 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom
+Progress (1): 2.7/5.7 kBProgress (1): 5.5/5.7 kBProgress (1): 5.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom (5.7 kB at 210 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.pom
+Progress (1): 2.7/4.1 kBProgress (1): 4.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.pom (4.1 kB at 121 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.pom
+Progress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.pom (1.5 kB at 59 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-mapping/3.0.0/maven-mapping-3.0.0.pom
+Progress (1): 2.7/4.1 kBProgress (1): 4.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-mapping/3.0.0/maven-mapping-3.0.0.pom (4.1 kB at 197 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.pom
+Progress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.pom (1.5 kB at 77 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-mapping/3.0.0/maven-mapping-3.0.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar
+Progress (1): 2.7/11 kBProgress (1): 5.5/11 kBProgress (1): 8.2/11 kBProgress (1): 11 kB    Progress (2): 11 kB | 2.7/194 kBProgress (2): 11 kB | 5.5/194 kBProgress (2): 11 kB | 8.2/194 kBProgress (2): 11 kB | 11/194 kB Progress (2): 11 kB | 14/194 kBProgress (2): 11 kB | 16/194 kBProgress (2): 11 kB | 19/194 kBProgress (2): 11 kB | 22/194 kBProgress (2): 11 kB | 25/194 kBProgress (2): 11 kB | 27/194 kBProgress (2): 11 kB | 30/194 kBProgress (2): 11 kB | 33/194 kBProgress (2): 11 kB | 36/194 kBProgress (2): 11 kB | 38/194 kBProgress (3): 11 kB | 38/194 kB | 2.7/51 kBProgress (3): 11 kB | 38/194 kB | 5.5/51 kBProgress (3): 11 kB | 38/194 kB | 8.2/51 kBProgress (3): 11 kB | 41/194 kB | 8.2/51 kBProgress (3): 11 kB | 41/194 kB | 11/51 kB Progress (3): 11 kB | 44/194 kB | 11/51 kBProgress (3): 11 kB | 44/194 kB | 14/51 kBProgress (3): 11 kB | 47/194 kB | 14/51 kBProgress (3): 11 kB | 47/194 kB | 16/51 kBProgress (3): 11 kB | 49/194 kB | 16/51 kBProgress (3): 11 kB | 49/194 kB | 19/51 kBProgress (3): 11 kB | 52/194 kB | 19/51 kBProgress (3): 11 kB | 52/194 kB | 22/51 kBProgress (3): 11 kB | 55/194 kB | 22/51 kBProgress (3): 11 kB | 55/194 kB | 25/51 kBProgress (3): 11 kB | 58/194 kB | 25/51 kBProgress (3): 11 kB | 58/194 kB | 27/51 kBProgress (3): 11 kB | 60/194 kB | 27/51 kBProgress (3): 11 kB | 60/194 kB | 30/51 kBProgress (3): 11 kB | 63/194 kB | 30/51 kBProgress (3): 11 kB | 63/194 kB | 33/51 kBProgress (3): 11 kB | 66/194 kB | 33/51 kBProgress (3): 11 kB | 66/194 kB | 36/51 kBProgress (3): 11 kB | 66/194 kB | 38/51 kBProgress (3): 11 kB | 70/194 kB | 38/51 kBProgress (3): 11 kB | 70/194 kB | 41/51 kBProgress (3): 11 kB | 74/194 kB | 41/51 kBProgress (3): 11 kB | 74/194 kB | 44/51 kBProgress (3): 11 kB | 78/194 kB | 44/51 kBProgress (3): 11 kB | 82/194 kB | 44/51 kBProgress (3): 11 kB | 82/194 kB | 47/51 kBProgress (3): 11 kB | 82/194 kB | 49/51 kBProgress (3): 11 kB | 86/194 kB | 49/51 kBProgress (3): 11 kB | 86/194 kB | 51 kB   Progress (3): 11 kB | 90/194 kB | 51 kBProgress (3): 11 kB | 94/194 kB | 51 kBProgress (3): 11 kB | 99/194 kB | 51 kBProgress (3): 11 kB | 103/194 kB | 51 kBProgress (3): 11 kB | 107/194 kB | 51 kBProgress (3): 11 kB | 111/194 kB | 51 kBProgress (3): 11 kB | 115/194 kB | 51 kBProgress (3): 11 kB | 119/194 kB | 51 kBProgress (3): 11 kB | 123/194 kB | 51 kBProgress (3): 11 kB | 127/194 kB | 51 kBProgress (3): 11 kB | 131/194 kB | 51 kBProgress (3): 11 kB | 135/194 kB | 51 kBProgress (3): 11 kB | 140/194 kB | 51 kBProgress (3): 11 kB | 144/194 kB | 51 kBProgress (3): 11 kB | 148/194 kB | 51 kBProgress (3): 11 kB | 152/194 kB | 51 kBProgress (3): 11 kB | 156/194 kB | 51 kBProgress (3): 11 kB | 160/194 kB | 51 kBProgress (3): 11 kB | 164/194 kB | 51 kBProgress (3): 11 kB | 168/194 kB | 51 kBProgress (3): 11 kB | 172/194 kB | 51 kBProgress (3): 11 kB | 176/194 kB | 51 kBProgress (3): 11 kB | 180/194 kB | 51 kBProgress (3): 11 kB | 185/194 kB | 51 kBProgress (3): 11 kB | 189/194 kB | 51 kBProgress (3): 11 kB | 193/194 kB | 51 kBProgress (3): 11 kB | 194 kB | 51 kB                                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar (51 kB at 716 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.jar (194 kB at 2.5 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-mapping/3.0.0/maven-mapping-3.0.0.jar (11 kB at 125 kB/s)
+[INFO] Packaging webapp
+[INFO] Assembling webapp [summitworksproj] in [C:\Users\aryan\.jenkins\workspace\Backend\target\summitworksproj-0.0.1-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Building war: C:\Users\aryan\.jenkins\workspace\Backend\target\summitworksproj-0.0.1-SNAPSHOT.war
+[INFO] 
+[8mha:////4HCc7zTC5JPov6ChUsJFdX+/fWF5NRCF9EMT+Ki9HzqXAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.5.3:repackage (repackage) @ summitworksproj ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/2.5.3/spring-boot-buildpack-platform-2.5.3.pom
+Progress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/2.5.3/spring-boot-buildpack-platform-2.5.3.pom (3.2 kB at 134 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/2.5.3/spring-boot-loader-tools-2.5.3.pom
+Progress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/2.5.3/spring-boot-loader-tools-2.5.3.pom (2.3 kB at 66 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/2.5.3/spring-boot-buildpack-platform-2.5.3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/2.5.3/spring-boot-loader-tools-2.5.3.jar
+Progress (1): 4.1/247 kBProgress (1): 8.2/247 kBProgress (1): 12/247 kB Progress (1): 16/247 kBProgress (2): 16/247 kB | 4.1/238 kBProgress (2): 20/247 kB | 4.1/238 kBProgress (2): 25/247 kB | 4.1/238 kBProgress (2): 25/247 kB | 8.2/238 kBProgress (2): 29/247 kB | 8.2/238 kBProgress (2): 29/247 kB | 12/238 kB Progress (2): 33/247 kB | 12/238 kBProgress (2): 33/247 kB | 16/238 kBProgress (2): 37/247 kB | 16/238 kBProgress (2): 41/247 kB | 16/238 kBProgress (2): 41/247 kB | 20/238 kBProgress (2): 45/247 kB | 20/238 kBProgress (2): 45/247 kB | 25/238 kBProgress (2): 49/247 kB | 25/238 kBProgress (2): 49/247 kB | 29/238 kBProgress (2): 49/247 kB | 33/238 kBProgress (2): 53/247 kB | 33/238 kBProgress (2): 57/247 kB | 33/238 kBProgress (2): 57/247 kB | 37/238 kBProgress (2): 61/247 kB | 37/238 kBProgress (2): 61/247 kB | 41/238 kBProgress (2): 66/247 kB | 41/238 kBProgress (2): 66/247 kB | 45/238 kBProgress (2): 66/247 kB | 49/238 kBProgress (2): 70/247 kB | 49/238 kBProgress (2): 74/247 kB | 49/238 kBProgress (2): 78/247 kB | 49/238 kBProgress (2): 82/247 kB | 49/238 kBProgress (2): 86/247 kB | 49/238 kBProgress (2): 90/247 kB | 49/238 kBProgress (2): 94/247 kB | 49/238 kBProgress (2): 98/247 kB | 49/238 kBProgress (2): 102/247 kB | 49/238 kBProgress (2): 106/247 kB | 49/238 kBProgress (2): 111/247 kB | 49/238 kBProgress (2): 115/247 kB | 49/238 kBProgress (2): 119/247 kB | 49/238 kBProgress (2): 123/247 kB | 49/238 kBProgress (2): 127/247 kB | 49/238 kBProgress (2): 131/247 kB | 49/238 kBProgress (2): 135/247 kB | 49/238 kBProgress (2): 139/247 kB | 49/238 kBProgress (2): 143/247 kB | 49/238 kBProgress (2): 147/247 kB | 49/238 kBProgress (2): 152/247 kB | 49/238 kBProgress (2): 156/247 kB | 49/238 kBProgress (2): 160/247 kB | 49/238 kBProgress (2): 164/247 kB | 49/238 kBProgress (2): 168/247 kB | 49/238 kBProgress (2): 172/247 kB | 49/238 kBProgress (2): 176/247 kB | 49/238 kBProgress (2): 176/247 kB | 53/238 kBProgress (2): 180/247 kB | 53/238 kBProgress (2): 180/247 kB | 57/238 kBProgress (2): 180/247 kB | 61/238 kBProgress (2): 180/247 kB | 66/238 kBProgress (2): 184/247 kB | 66/238 kBProgress (2): 188/247 kB | 66/238 kBProgress (2): 193/247 kB | 66/238 kBProgress (2): 193/247 kB | 70/238 kBProgress (2): 197/247 kB | 70/238 kBProgress (2): 197/247 kB | 73/238 kBProgress (2): 201/247 kB | 73/238 kBProgress (2): 201/247 kB | 77/238 kBProgress (2): 205/247 kB | 77/238 kBProgress (2): 205/247 kB | 81/238 kBProgress (2): 209/247 kB | 81/238 kBProgress (2): 209/247 kB | 85/238 kBProgress (2): 213/247 kB | 85/238 kBProgress (2): 213/247 kB | 89/238 kBProgress (2): 217/247 kB | 89/238 kBProgress (2): 217/247 kB | 93/238 kBProgress (2): 221/247 kB | 93/238 kBProgress (2): 221/247 kB | 97/238 kBProgress (2): 225/247 kB | 97/238 kBProgress (2): 225/247 kB | 101/238 kBProgress (2): 229/247 kB | 101/238 kBProgress (2): 229/247 kB | 105/238 kBProgress (2): 233/247 kB | 105/238 kBProgress (2): 233/247 kB | 109/238 kBProgress (2): 238/247 kB | 109/238 kBProgress (2): 238/247 kB | 114/238 kBProgress (2): 242/247 kB | 114/238 kBProgress (2): 242/247 kB | 118/238 kBProgress (2): 246/247 kB | 118/238 kBProgress (2): 246/247 kB | 122/238 kBProgress (2): 247 kB | 122/238 kB    Progress (2): 247 kB | 126/238 kBProgress (2): 247 kB | 130/238 kBProgress (2): 247 kB | 134/238 kBProgress (2): 247 kB | 138/238 kBProgress (2): 247 kB | 142/238 kBProgress (2): 247 kB | 146/238 kBProgress (2): 247 kB | 150/238 kBProgress (2): 247 kB | 154/238 kBProgress (2): 247 kB | 159/238 kBProgress (2): 247 kB | 163/238 kBProgress (2): 247 kB | 167/238 kBProgress (2): 247 kB | 171/238 kBProgress (2): 247 kB | 175/238 kBProgress (2): 247 kB | 179/238 kBProgress (2): 247 kB | 183/238 kBProgress (2): 247 kB | 187/238 kBProgress (2): 247 kB | 191/238 kBProgress (2): 247 kB | 195/238 kBProgress (2): 247 kB | 200/238 kBProgress (2): 247 kB | 204/238 kBProgress (2): 247 kB | 208/238 kBProgress (2): 247 kB | 212/238 kBProgress (2): 247 kB | 216/238 kBProgress (2): 247 kB | 220/238 kBProgress (2): 247 kB | 224/238 kBProgress (2): 247 kB | 228/238 kBProgress (2): 247 kB | 232/238 kBProgress (2): 247 kB | 236/238 kBProgress (2): 247 kB | 238 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/2.5.3/spring-boot-loader-tools-2.5.3.jar (247 kB at 4.7 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/2.5.3/spring-boot-buildpack-platform-2.5.3.jar (238 kB at 3.9 MB/s)
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.129 s
+[INFO] Finished at: 2021-07-29T12:26:55-04:00
+[INFO] ------------------------------------------------------------------------
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+ERROR: Build step failed with exception
+java.lang.NullPointerException
+	at hudson.plugins.deploy.DeployPublisher.perform(DeployPublisher.java:112)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:80)
+	at hudson.tasks.BuildStepMonitor$3.perform(BuildStepMonitor.java:45)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:803)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:752)
+	at hudson.model.Build$BuildExecution.post2(Build.java:177)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:697)
+	at hudson.model.Run.execute(Run.java:1931)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Build step 'Deploy war/ear to a container' marked build as failure
+Finished: FAILURE

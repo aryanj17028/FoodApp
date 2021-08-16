@@ -1,0 +1,12 @@
+commit c3bb5451875bc7d75d1d253ec667bf3fccbc35b9
+tree cd0b6c9834fe0851c000a9d4886bfef176066206
+parent db0a27507ba265ea1c0e47ad2f8156477992310d
+author Aryan Joshi <aryanj17028@gmail.com> 2021-07-29 12:26:12 -0400
+committer Aryan Joshi <aryanj17028@gmail.com> 2021-07-29 12:26:12 -0400
+
+    Fixed merge conflicts and naming inconsistencies
+
+
+:100644 100644 e14df6c20d4ee0c6b8d80ade0685695a602934c5 ffb070135bd7ea099e42bab35a2d540128026477 M	src/main/java/com/aryansteven/summitworksproj/controller/EventController.java
+:100644 100644 04faa1f52c31ced3121ac74aab04128a31b8fc84 9961cb4020f17d72d241c443e1880651eb9111c2 M	src/main/java/com/aryansteven/summitworksproj/controller/TicketController.java
+:100644 100644 9d74e0e468eb55491e87a2b9a1dbe3c9a0ef41e2 3feb5402928484c1bf8835f76834e8ac2e45f500 M	src/main/java/com/aryansteven/summitworksproj/controller/UserController.java

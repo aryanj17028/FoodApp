@@ -1,0 +1,14 @@
+commit c8e4690c96d14ac5f2d8f4b172833ad1802fa9fd
+tree 7f104def0ad427c8e5df7f4ec3e1aa5e72620218
+parent c3bb5451875bc7d75d1d253ec667bf3fccbc35b9
+author Aryan Joshi <aryanj17028@gmail.com> 2021-07-29 14:54:26 -0400
+committer Aryan Joshi <aryanj17028@gmail.com> 2021-07-29 14:54:26 -0400
+
+    Created security configuration
+
+
+:100644 000000 410f8a85dc8d9127b80233f86c7a59e4b2e6819b 0000000000000000000000000000000000000000 D	src/main/java/com/aryansteven/summitworksproj/Autowire.java
+:000000 100644 0000000000000000000000000000000000000000 326cde3cc8fda773c3081f92ca8c55cd1e713dd3 A	src/main/java/com/aryansteven/summitworksproj/config/SecurityConfig.java
+:100644 100644 bb45ea500b5ae1b3a11a820a5306b28d8713f012 b59807bfbe2fb32f2037c4250647d09c68179eac M	src/main/java/com/aryansteven/summitworksproj/repo/NgoUserRepo.java
+:100644 100644 ab77a0dfc7f152367ef83cab66af11c03bf75ccf d7b2a7905d017ee91aa850a1fa58f822a5bd7dd6 M	src/main/java/com/aryansteven/summitworksproj/service/NgoUserService.java
+:100644 100644 c90eea77a123a0e62b9722b4ccfc9ef55497115c 60c94877c1bc9301eb4ae7331591cfcfa5589ead M	src/main/java/com/aryansteven/summitworksproj/service/NgoUserServiceImpl.java

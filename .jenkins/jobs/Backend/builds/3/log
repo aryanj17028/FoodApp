@@ -1,0 +1,30 @@
+Started by user [8mha:////4GAvzdfxRLealRiprxsQE7C3HuaJsCYblez1w8i0703yAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace C:\Users\aryan\.jenkins\workspace\Backend
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ArySteb/summitworksproj1_backend.git/
+ > git.exe init C:\Users\aryan\.jenkins\workspace\Backend # timeout=10
+Fetching upstream changes from https://github.com/ArySteb/summitworksproj1_backend.git/
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.32.0.windows.2'
+ > git.exe fetch --tags --force --progress -- https://github.com/ArySteb/summitworksproj1_backend.git/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/ArySteb/summitworksproj1_backend.git/ # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 33cc90934f3d133bad21a7e33e0ed1314ecd3cf1 (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 33cc90934f3d133bad21a7e33e0ed1314ecd3cf1 # timeout=10
+Commit message: "made event controller and user controller"
+First time build. Skipping changelog.
+[Backend] $ cmd.exe /C "mvn clean compile package && exit %%ERRORLEVEL%%"
+'mvn' is not recognized as an internal or external command,
+operable program or batch file.
+Build step 'Invoke top-level Maven targets' marked build as failure
+[DeployPublisher][INFO] Build failed, project not deployed
+Finished: FAILURE
