@@ -1,0 +1,15 @@
+<div class="container">
+    <h1>Tags Picker</h1>
+    <p>Please pick tags from the drop down</p>
+    <select #tags (change)="onSelected(tags.value)">
+      
+          <option *ngFor="let tags of tagsData">{{tags}}</option>
+          
+     
+      </select>
+  
+    <div *ngFor="let chosen of chosenTags">
+      <div>{{chosen.restaurantName}}</div>
+  
+    </div>
+  </div>

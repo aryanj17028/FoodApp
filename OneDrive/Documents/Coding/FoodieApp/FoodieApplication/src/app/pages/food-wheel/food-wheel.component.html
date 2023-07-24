@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Style Picker</h1>
+  <p>Please pick a style from the drop down</p>
+  <select #style (change)="onSelected(style.value)">
+    
+		<option *ngFor="let style of styleData">{{style}}</option>
+		
+   
+	</select>
+
+  <div *ngFor="let chosen of chosenFoodData">
+    <div>{{chosen.restaurantName}}</div>
+
+  </div>
+</div>
